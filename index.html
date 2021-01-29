@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Cheatsheet by CodeWithHarry</title>
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="copy.png" alt=""></span>
+        <div class="content center">
+            This GitHub Cheatsheet is For me!
+        </div>
+    </nav>
+    <div class="container">
+        <ol>
+            <li><b>How to upload project on github:</b> First you have make account on github and new repository.
+                <pre class="language-html">
+                  <p style="color: white;"> * Create a local copy of a remote repository</p>
+                    <h3 style="color: red;">  # Git clone ssh://something.com/[username]/[repository_name].git:</h3>
+            </li> 
+            <li> <p style="color: black">  check status</p>
+                <pre class="language-js"><code>git status </code></pre>
+            </li>
+            <li>
+                <p style="color: black"> Adding one specific file in staging area.</p>
+                <pre class="language-js"><code>Git add [file_name.doc] </code></pre>
+            </li>
+
+            <li>
+                <p style="color: black"> Add all new and changed files to the staging area.</p>
+                <pre class="language-js"><code>git add . </code></pre>
+            </li>
+            <li> <b>Commit all the required changes.</b>
+                <pre class="language-js"><code>Git commits –m [“message for commit”] </code></pre>
+            </li>
+            <li>Helping for removing the file or any defined folder.
+                <pre class="language-js"><code>Git rm –r [file_name.doc] </code></pre>
+            </li>
+            <li> Creating a new branch with new name.
+                <pre class="language-js"><code>Git branch [branch_name] </code></pre>
+            </li>
+            <li> Deleting a specific branch.
+                <pre class="language-js"><code>Git branch –d [branch_name] </code></pre>
+            </li>
+            <li> Helping to create one specific new branch and switching entire codebase to it.
+                <pre class="language-js"><code>Git checkout -b [branch_name]</code></pre>
+            </li>
+            <li> Helping for cloning one remote branch and switching entire codebase to it.
+                <pre class="language-js"><code>Git checkout –b [branch_name] origin/branch_name </code></pre>
+            </li>
+            <li> Helps for pushing one of the created branches in your local environment to a remote directory or
+                repository.
+                <pre class="language-js"><code>Git push origin [branch_name] </code></pre>
+            </li>
+            <li> Helping for pulling entire changes from the remote repository to local.
+                <pre class="language-js"><code>Git pull origin [branch_name] </code></pre>
+            </li>
+            <li>Regularly/Mainly used commands in GitHub
+                <pre class="language-js"> 1.first we have to take pull.<br> <code style="color: red;">Git pull origin [branch_name]  </code><br>
+2.Add all new and changed files to the staging area.<br> <code style="color: red;">Git add .  </code><br>
+3.Commit all the required changes.<br> <code style="color: red;">Git commits –m [“message for commit”] </code><br>
+4.Helps for pushing one of the created branches in your local environment to a remote
+ directory or repository.<br> 
+<code style="color: red;">Git push origin [branch_name]  </code>
+                
+                </pre>
+           
+        </ol>
+    </div>
+</body>
+
+</html>
